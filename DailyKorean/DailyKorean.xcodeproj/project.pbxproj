@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA071F1C228D21610061D05B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F1B228D21610061D05B /* AppDelegate.swift */; };
+		AA071F1E228D21610061D05B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F1D228D21610061D05B /* ViewController.swift */; };
+		AA071F21228D21610061D05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA071F1F228D21610061D05B /* Main.storyboard */; };
+		AA071F24228D21610061D05B /* DailyKorean.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA071F22228D21610061D05B /* DailyKorean.xcdatamodeld */; };
+		AA071F26228D21650061D05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA071F25228D21650061D05B /* Assets.xcassets */; };
+		AA071F29228D21650061D05B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA071F27228D21650061D05B /* LaunchScreen.storyboard */; };
+		AA071F34228D21660061D05B /* DailyKoreanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F33228D21660061D05B /* DailyKoreanTests.swift */; };
+		AA071F3F228D21660061D05B /* DailyKoreanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F3E228D21660061D05B /* DailyKoreanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA071F30228D21660061D05B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA071F10228D21610061D05B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA071F17228D21610061D05B;
+			remoteInfo = DailyKorean;
+		};
+		AA071F3B228D21660061D05B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA071F10228D21610061D05B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA071F17228D21610061D05B;
+			remoteInfo = DailyKorean;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA071F18228D21610061D05B /* DailyKorean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyKorean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA071F1B228D21610061D05B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA071F1D228D21610061D05B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA071F20228D21610061D05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA071F23228D21610061D05B /* DailyKorean.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyKorean.xcdatamodel; sourceTree = "<group>"; };
+		AA071F25228D21650061D05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA071F28228D21650061D05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA071F2A228D21650061D05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA071F2F228D21660061D05B /* DailyKoreanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyKoreanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA071F33228D21660061D05B /* DailyKoreanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyKoreanTests.swift; sourceTree = "<group>"; };
+		AA071F35228D21660061D05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA071F3A228D21660061D05B /* DailyKoreanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyKoreanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA071F3E228D21660061D05B /* DailyKoreanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyKoreanUITests.swift; sourceTree = "<group>"; };
+		AA071F40228D21660061D05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA071F15228D21610061D05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA071F2C228D21660061D05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA071F37228D21660061D05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA071F0F228D21610061D05B = {
+			isa = PBXGroup;
+			children = (
+				AA071F1A228D21610061D05B /* DailyKorean */,
+				AA071F32228D21660061D05B /* DailyKoreanTests */,
+				AA071F3D228D21660061D05B /* DailyKoreanUITests */,
+				AA071F19228D21610061D05B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA071F19228D21610061D05B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA071F18228D21610061D05B /* DailyKorean.app */,
+				AA071F2F228D21660061D05B /* DailyKoreanTests.xctest */,
+				AA071F3A228D21660061D05B /* DailyKoreanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA071F1A228D21610061D05B /* DailyKorean */ = {
+			isa = PBXGroup;
+			children = (
+				AA071F1B228D21610061D05B /* AppDelegate.swift */,
+				AA071F1D228D21610061D05B /* ViewController.swift */,
+				AA071F1F228D21610061D05B /* Main.storyboard */,
+				AA071F25228D21650061D05B /* Assets.xcassets */,
+				AA071F27228D21650061D05B /* LaunchScreen.storyboard */,
+				AA071F2A228D21650061D05B /* Info.plist */,
+				AA071F22228D21610061D05B /* DailyKorean.xcdatamodeld */,
+			);
+			path = DailyKorean;
+			sourceTree = "<group>";
+		};
+		AA071F32228D21660061D05B /* DailyKoreanTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA071F33228D21660061D05B /* DailyKoreanTests.swift */,
+				AA071F35228D21660061D05B /* Info.plist */,
+			);
+			path = DailyKoreanTests;
+			sourceTree = "<group>";
+		};
+		AA071F3D228D21660061D05B /* DailyKoreanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA071F3E228D21660061D05B /* DailyKoreanUITests.swift */,
+				AA071F40228D21660061D05B /* Info.plist */,
+			);
+			path = DailyKoreanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA071F17228D21610061D05B /* DailyKorean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA071F43228D21660061D05B /* Build configuration list for PBXNativeTarget "DailyKorean" */;
+			buildPhases = (
+				AA071F14228D21610061D05B /* Sources */,
+				AA071F15228D21610061D05B /* Frameworks */,
+				AA071F16228D21610061D05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyKorean;
+			productName = DailyKorean;
+			productReference = AA071F18228D21610061D05B /* DailyKorean.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA071F2E228D21660061D05B /* DailyKoreanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA071F46228D21660061D05B /* Build configuration list for PBXNativeTarget "DailyKoreanTests" */;
+			buildPhases = (
+				AA071F2B228D21660061D05B /* Sources */,
+				AA071F2C228D21660061D05B /* Frameworks */,
+				AA071F2D228D21660061D05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA071F31228D21660061D05B /* PBXTargetDependency */,
+			);
+			name = DailyKoreanTests;
+			productName = DailyKoreanTests;
+			productReference = AA071F2F228D21660061D05B /* DailyKoreanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA071F39228D21660061D05B /* DailyKoreanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA071F49228D21660061D05B /* Build configuration list for PBXNativeTarget "DailyKoreanUITests" */;
+			buildPhases = (
+				AA071F36228D21660061D05B /* Sources */,
+				AA071F37228D21660061D05B /* Frameworks */,
+				AA071F38228D21660061D05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA071F3C228D21660061D05B /* PBXTargetDependency */,
+			);
+			name = DailyKoreanUITests;
+			productName = DailyKoreanUITests;
+			productReference = AA071F3A228D21660061D05B /* DailyKoreanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA071F10228D21610061D05B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "MTX Software Technology Co.,Ltd.";
+				TargetAttributes = {
+					AA071F17228D21610061D05B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AA071F2E228D21660061D05B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AA071F17228D21610061D05B;
+					};
+					AA071F39228D21660061D05B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AA071F17228D21610061D05B;
+					};
+				};
+			};
+			buildConfigurationList = AA071F13228D21610061D05B /* Build configuration list for PBXProject "DailyKorean" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA071F0F228D21610061D05B;
+			productRefGroup = AA071F19228D21610061D05B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA071F17228D21610061D05B /* DailyKorean */,
+				AA071F2E228D21660061D05B /* DailyKoreanTests */,
+				AA071F39228D21660061D05B /* DailyKoreanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA071F16228D21610061D05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA071F29228D21650061D05B /* LaunchScreen.storyboard in Resources */,
+				AA071F26228D21650061D05B /* Assets.xcassets in Resources */,
+				AA071F21228D21610061D05B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA071F2D228D21660061D05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA071F38228D21660061D05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA071F14228D21610061D05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA071F24228D21610061D05B /* DailyKorean.xcdatamodeld in Sources */,
+				AA071F1E228D21610061D05B /* ViewController.swift in Sources */,
+				AA071F1C228D21610061D05B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA071F2B228D21660061D05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA071F34228D21660061D05B /* DailyKoreanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA071F36228D21660061D05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA071F3F228D21660061D05B /* DailyKoreanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA071F31228D21660061D05B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA071F17228D21610061D05B /* DailyKorean */;
+			targetProxy = AA071F30228D21660061D05B /* PBXContainerItemProxy */;
+		};
+		AA071F3C228D21660061D05B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA071F17228D21610061D05B /* DailyKorean */;
+			targetProxy = AA071F3B228D21660061D05B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA071F1F228D21610061D05B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA071F20228D21610061D05B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA071F27228D21650061D05B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA071F28228D21650061D05B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA071F41228D21660061D05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA071F42228D21660061D05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA071F44228D21660061D05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = DailyKorean/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA071F45228D21660061D05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = DailyKorean/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA071F47228D21660061D05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = DailyKoreanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.DailyKoreanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyKorean.app/DailyKorean";
+			};
+			name = Debug;
+		};
+		AA071F48228D21660061D05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = DailyKoreanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.DailyKoreanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyKorean.app/DailyKorean";
+			};
+			name = Release;
+		};
+		AA071F4A228D21660061D05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = DailyKoreanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.DailyKoreanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyKorean;
+			};
+			name = Debug;
+		};
+		AA071F4B228D21660061D05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = DailyKoreanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.DailyKoreanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyKorean;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA071F13228D21610061D05B /* Build configuration list for PBXProject "DailyKorean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA071F41228D21660061D05B /* Debug */,
+				AA071F42228D21660061D05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA071F43228D21660061D05B /* Build configuration list for PBXNativeTarget "DailyKorean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA071F44228D21660061D05B /* Debug */,
+				AA071F45228D21660061D05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA071F46228D21660061D05B /* Build configuration list for PBXNativeTarget "DailyKoreanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA071F47228D21660061D05B /* Debug */,
+				AA071F48228D21660061D05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA071F49228D21660061D05B /* Build configuration list for PBXNativeTarget "DailyKoreanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA071F4A228D21660061D05B /* Debug */,
+				AA071F4B228D21660061D05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA071F22228D21610061D05B /* DailyKorean.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA071F23228D21610061D05B /* DailyKorean.xcdatamodel */,
+			);
+			currentVersion = AA071F23228D21610061D05B /* DailyKorean.xcdatamodel */;
+			path = DailyKorean.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA071F10228D21610061D05B /* Project object */;
+}
