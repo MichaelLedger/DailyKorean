@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AA071F1C228D21610061D05B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F1B228D21610061D05B /* AppDelegate.swift */; };
-		AA071F1E228D21610061D05B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F1D228D21610061D05B /* ViewController.swift */; };
 		AA071F21228D21610061D05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA071F1F228D21610061D05B /* Main.storyboard */; };
 		AA071F24228D21610061D05B /* DailyKorean.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA071F22228D21610061D05B /* DailyKorean.xcdatamodeld */; };
 		AA071F26228D21650061D05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA071F25228D21650061D05B /* Assets.xcassets */; };
 		AA071F29228D21650061D05B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA071F27228D21650061D05B /* LaunchScreen.storyboard */; };
 		AA071F34228D21660061D05B /* DailyKoreanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F33228D21660061D05B /* DailyKoreanTests.swift */; };
 		AA071F3F228D21660061D05B /* DailyKoreanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F3E228D21660061D05B /* DailyKoreanUITests.swift */; };
+		AA071F51228D23860061D05B /* DKTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F50228D23860061D05B /* DKTabBarController.swift */; };
+		AA071F53228D243B0061D05B /* DKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F52228D243B0061D05B /* DKBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* Begin PBXFileReference section */
 		AA071F18228D21610061D05B /* DailyKorean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyKorean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA071F1B228D21610061D05B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA071F1D228D21610061D05B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA071F20228D21610061D05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA071F23228D21610061D05B /* DailyKorean.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyKorean.xcdatamodel; sourceTree = "<group>"; };
 		AA071F25228D21650061D05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		AA071F3A228D21660061D05B /* DailyKoreanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyKoreanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA071F3E228D21660061D05B /* DailyKoreanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyKoreanUITests.swift; sourceTree = "<group>"; };
 		AA071F40228D21660061D05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA071F50228D23860061D05B /* DKTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKTabBarController.swift; sourceTree = "<group>"; };
+		AA071F52228D243B0061D05B /* DKBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				AA071F1B228D21610061D05B /* AppDelegate.swift */,
-				AA071F1D228D21610061D05B /* ViewController.swift */,
 				AA071F1F228D21610061D05B /* Main.storyboard */,
 				AA071F25228D21650061D05B /* Assets.xcassets */,
 				AA071F27228D21650061D05B /* LaunchScreen.storyboard */,
 				AA071F2A228D21650061D05B /* Info.plist */,
 				AA071F22228D21610061D05B /* DailyKorean.xcdatamodeld */,
+				AA071F50228D23860061D05B /* DKTabBarController.swift */,
+				AA071F52228D243B0061D05B /* DKBaseViewController.swift */,
 			);
 			path = DailyKorean;
 			sourceTree = "<group>";
@@ -260,7 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA071F24228D21610061D05B /* DailyKorean.xcdatamodeld in Sources */,
-				AA071F1E228D21610061D05B /* ViewController.swift in Sources */,
+				AA071F53228D243B0061D05B /* DKBaseViewController.swift in Sources */,
+				AA071F51228D23860061D05B /* DKTabBarController.swift in Sources */,
 				AA071F1C228D21610061D05B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
