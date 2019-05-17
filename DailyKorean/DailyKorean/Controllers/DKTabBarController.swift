@@ -18,11 +18,11 @@ class DKTabBarController: UITabBarController {
     }
     
     func setup() {
-        let vc1 = DKBaseViewController()
+        let vc1 = DKWebViewController()
         vc1.view.backgroundColor = UIColor.orange
         vc1.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 1)
         
-        let vc2 = DKBaseViewController()
+        let vc2 = WKJSDemoViewController()
         vc2.view.backgroundColor = UIColor.yellow
         vc2.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 2)
         

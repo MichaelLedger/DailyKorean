@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31BC777EACB9108B11C75CA4 /* Pods_DailyKoreanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D635E0425B01A0A687EF07AC /* Pods_DailyKoreanTests.framework */; };
+		3E59D342DC1FB19DBE1F0267 /* Pods_DailyKorean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66DDB9E9B118AC33DC6D65E /* Pods_DailyKorean.framework */; };
 		AA071F1C228D21610061D05B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F1B228D21610061D05B /* AppDelegate.swift */; };
 		AA071F21228D21610061D05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA071F1F228D21610061D05B /* Main.storyboard */; };
 		AA071F24228D21610061D05B /* DailyKorean.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA071F22228D21610061D05B /* DailyKorean.xcdatamodeld */; };
@@ -16,6 +18,11 @@
 		AA071F3F228D21660061D05B /* DailyKoreanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F3E228D21660061D05B /* DailyKoreanUITests.swift */; };
 		AA071F51228D23860061D05B /* DKTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F50228D23860061D05B /* DKTabBarController.swift */; };
 		AA071F53228D243B0061D05B /* DKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA071F52228D243B0061D05B /* DKBaseViewController.swift */; };
+		AA93F04E228EA073008E6B00 /* WKJSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F04D228EA073008E6B00 /* WKJSDemoViewController.swift */; };
+		AA93F061228EA24B008E6B00 /* Demo.html in Resources */ = {isa = PBXBuildFile; fileRef = AA93F060228EA24B008E6B00 /* Demo.html */; };
+		AA93F063228EAB47008E6B00 /* DKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93F062228EAB47008E6B00 /* DKWebViewController.swift */; };
+		AA93F065228EDBE9008E6B00 /* alphabet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA93F064228EDBE9008E6B00 /* alphabet.bundle */; };
+		EE5FA47752B838E494221C39 /* Pods_DailyKoreanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED42C86D33DFC7D72084652 /* Pods_DailyKoreanUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14A3F8DF86F80D22FEDC3FFD /* Pods-DailyKoreanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyKoreanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DailyKoreanUITests/Pods-DailyKoreanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82C4ECCF94BDBBE40E8EEDC2 /* Pods-DailyKorean.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyKorean.release.xcconfig"; path = "Pods/Target Support Files/Pods-DailyKorean/Pods-DailyKorean.release.xcconfig"; sourceTree = "<group>"; };
+		8C58C39CC96DE7648A6E02B0 /* Pods-DailyKoreanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyKoreanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DailyKoreanTests/Pods-DailyKoreanTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA071F18228D21610061D05B /* DailyKorean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyKorean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA071F1B228D21610061D05B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA071F20228D21610061D05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,16 @@
 		AA071F40228D21660061D05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA071F50228D23860061D05B /* DKTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKTabBarController.swift; sourceTree = "<group>"; };
 		AA071F52228D243B0061D05B /* DKBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKBaseViewController.swift; sourceTree = "<group>"; };
+		AA93F04D228EA073008E6B00 /* WKJSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKJSDemoViewController.swift; sourceTree = "<group>"; };
+		AA93F060228EA24B008E6B00 /* Demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Demo.html; sourceTree = "<group>"; };
+		AA93F062228EAB47008E6B00 /* DKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKWebViewController.swift; sourceTree = "<group>"; };
+		AA93F064228EDBE9008E6B00 /* alphabet.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = alphabet.bundle; sourceTree = "<group>"; };
+		B7616A9A004027B2125F326F /* Pods-DailyKorean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyKorean.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DailyKorean/Pods-DailyKorean.debug.xcconfig"; sourceTree = "<group>"; };
+		C07F8E37A08B4143237F90C3 /* Pods-DailyKoreanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyKoreanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DailyKoreanUITests/Pods-DailyKoreanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C97E444C0FC9705D0350189B /* Pods-DailyKoreanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyKoreanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DailyKoreanTests/Pods-DailyKoreanTests.release.xcconfig"; sourceTree = "<group>"; };
+		CED42C86D33DFC7D72084652 /* Pods_DailyKoreanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyKoreanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D635E0425B01A0A687EF07AC /* Pods_DailyKoreanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyKoreanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E66DDB9E9B118AC33DC6D65E /* Pods_DailyKorean.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyKorean.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E59D342DC1FB19DBE1F0267 /* Pods_DailyKorean.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31BC777EACB9108B11C75CA4 /* Pods_DailyKoreanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5FA47752B838E494221C39 /* Pods_DailyKoreanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B658BD998B44542966997CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E66DDB9E9B118AC33DC6D65E /* Pods_DailyKorean.framework */,
+				D635E0425B01A0A687EF07AC /* Pods_DailyKoreanTests.framework */,
+				CED42C86D33DFC7D72084652 /* Pods_DailyKoreanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		642D03A5B66DC987404C7668 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7616A9A004027B2125F326F /* Pods-DailyKorean.debug.xcconfig */,
+				82C4ECCF94BDBBE40E8EEDC2 /* Pods-DailyKorean.release.xcconfig */,
+				8C58C39CC96DE7648A6E02B0 /* Pods-DailyKoreanTests.debug.xcconfig */,
+				C97E444C0FC9705D0350189B /* Pods-DailyKoreanTests.release.xcconfig */,
+				14A3F8DF86F80D22FEDC3FFD /* Pods-DailyKoreanUITests.debug.xcconfig */,
+				C07F8E37A08B4143237F90C3 /* Pods-DailyKoreanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AA071F0F228D21610061D05B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,8 @@
 				AA071F32228D21660061D05B /* DailyKoreanTests */,
 				AA071F3D228D21660061D05B /* DailyKoreanUITests */,
 				AA071F19228D21610061D05B /* Products */,
+				642D03A5B66DC987404C7668 /* Pods */,
+				3B658BD998B44542966997CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +149,14 @@
 		AA071F1A228D21610061D05B /* DailyKorean */ = {
 			isa = PBXGroup;
 			children = (
-				AA071F1B228D21610061D05B /* AppDelegate.swift */,
+				AA93F04C228E9D7E008E6B00 /* AppDelegate */,
+				AA93F04B228E99DF008E6B00 /* Controllers */,
+				AA93F048228E9996008E6B00 /* Resource */,
 				AA071F1F228D21610061D05B /* Main.storyboard */,
 				AA071F25228D21650061D05B /* Assets.xcassets */,
 				AA071F27228D21650061D05B /* LaunchScreen.storyboard */,
 				AA071F2A228D21650061D05B /* Info.plist */,
 				AA071F22228D21610061D05B /* DailyKorean.xcdatamodeld */,
-				AA071F50228D23860061D05B /* DKTabBarController.swift */,
-				AA071F52228D243B0061D05B /* DKBaseViewController.swift */,
 			);
 			path = DailyKorean;
 			sourceTree = "<group>";
@@ -131,6 +179,34 @@
 			path = DailyKoreanUITests;
 			sourceTree = "<group>";
 		};
+		AA93F048228E9996008E6B00 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AA93F064228EDBE9008E6B00 /* alphabet.bundle */,
+				AA93F060228EA24B008E6B00 /* Demo.html */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		AA93F04B228E99DF008E6B00 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA071F50228D23860061D05B /* DKTabBarController.swift */,
+				AA071F52228D243B0061D05B /* DKBaseViewController.swift */,
+				AA93F04D228EA073008E6B00 /* WKJSDemoViewController.swift */,
+				AA93F062228EAB47008E6B00 /* DKWebViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AA93F04C228E9D7E008E6B00 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AA071F1B228D21610061D05B /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA071F43228D21660061D05B /* Build configuration list for PBXNativeTarget "DailyKorean" */;
 			buildPhases = (
+				056B267F8F93BCED84FA58B9 /* [CP] Check Pods Manifest.lock */,
 				AA071F14228D21610061D05B /* Sources */,
 				AA071F15228D21610061D05B /* Frameworks */,
 				AA071F16228D21610061D05B /* Resources */,
+				6F4063D50BFF4E0DD8AB1EFD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA071F46228D21660061D05B /* Build configuration list for PBXNativeTarget "DailyKoreanTests" */;
 			buildPhases = (
+				037915D7EDA8A23764CE07CC /* [CP] Check Pods Manifest.lock */,
 				AA071F2B228D21660061D05B /* Sources */,
 				AA071F2C228D21660061D05B /* Frameworks */,
 				AA071F2D228D21660061D05B /* Resources */,
@@ -173,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA071F49228D21660061D05B /* Build configuration list for PBXNativeTarget "DailyKoreanUITests" */;
 			buildPhases = (
+				FB238FC732123ABE606963B3 /* [CP] Check Pods Manifest.lock */,
 				AA071F36228D21660061D05B /* Sources */,
 				AA071F37228D21660061D05B /* Frameworks */,
 				AA071F38228D21660061D05B /* Resources */,
@@ -235,8 +315,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA93F061228EA24B008E6B00 /* Demo.html in Resources */,
 				AA071F29228D21650061D05B /* LaunchScreen.storyboard in Resources */,
 				AA071F26228D21650061D05B /* Assets.xcassets in Resources */,
+				AA93F065228EDBE9008E6B00 /* alphabet.bundle in Resources */,
 				AA071F21228D21610061D05B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,12 +339,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		037915D7EDA8A23764CE07CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DailyKoreanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		056B267F8F93BCED84FA58B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DailyKorean-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4063D50BFF4E0DD8AB1EFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DailyKorean/Pods-DailyKorean-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WKWebViewJavascriptBridge/WKWebViewJavascriptBridge.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WKWebViewJavascriptBridge.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DailyKorean/Pods-DailyKorean-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB238FC732123ABE606963B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DailyKoreanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA071F14228D21610061D05B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA93F063228EAB47008E6B00 /* DKWebViewController.swift in Sources */,
 				AA071F24228D21610061D05B /* DailyKorean.xcdatamodeld in Sources */,
+				AA93F04E228EA073008E6B00 /* WKJSDemoViewController.swift in Sources */,
 				AA071F53228D243B0061D05B /* DKBaseViewController.swift in Sources */,
 				AA071F51228D23860061D05B /* DKTabBarController.swift in Sources */,
 				AA071F1C228D21610061D05B /* AppDelegate.swift in Sources */,
@@ -438,6 +597,7 @@
 		};
 		AA071F44228D21660061D05B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7616A9A004027B2125F326F /* Pods-DailyKorean.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +617,7 @@
 		};
 		AA071F45228D21660061D05B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C4ECCF94BDBBE40E8EEDC2 /* Pods-DailyKorean.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +637,7 @@
 		};
 		AA071F47228D21660061D05B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C58C39CC96DE7648A6E02B0 /* Pods-DailyKoreanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +659,7 @@
 		};
 		AA071F48228D21660061D05B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C97E444C0FC9705D0350189B /* Pods-DailyKoreanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +681,7 @@
 		};
 		AA071F4A228D21660061D05B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A3F8DF86F80D22FEDC3FFD /* Pods-DailyKoreanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +702,7 @@
 		};
 		AA071F4B228D21660061D05B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07F8E37A08B4143237F90C3 /* Pods-DailyKoreanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

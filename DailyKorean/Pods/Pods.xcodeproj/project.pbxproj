@@ -1,0 +1,952 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08096BB982735551911A576B70341DEC /* Pods-DailyKorean-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 352CF362610128C31A0AE93D7126E35C /* Pods-DailyKorean-dummy.m */; };
+		0E47D71F47D3BB20B193A5F77693D8A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		33BEC4C8CF9E920DC50E2C7EB2571546 /* Pods-DailyKoreanUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6775EBFC8F3369EA2F2B8C324E6A8789 /* Pods-DailyKoreanUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620F4B9F07BBB9B0AB14407066C85BF4 /* WKWebViewJavascriptBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A907F0BA945D3A9E0B67EC4B910C9B8 /* WKWebViewJavascriptBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73616376190FDE1A6048311E6E0632DF /* Pods-DailyKoreanTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE9B6D09BBFADFA685FB9A374C71CA6 /* Pods-DailyKoreanTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E6969599BD2979AAECC299179CE06D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		80DB2A04BB66D1F1B6E51423428772B2 /* Pods-DailyKoreanTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6F1C7D7884CB1E46A72D17580B02C2 /* Pods-DailyKoreanTests-dummy.m */; };
+		A08762A3A3BFB6FF545C6E1BDE96F5A1 /* Pods-DailyKorean-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DEE73691D42CA3C4C8F13D8689EBBF /* Pods-DailyKorean-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6147EBAAE8A37D76CE56E0B3A2201A4 /* Pods-DailyKoreanUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6D08D58EC421E0D031BC76F66B80B /* Pods-DailyKoreanUITests-dummy.m */; };
+		AB6AB4CBD6BCE3C0C11CD38E610886A4 /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 989DBE11BE78EEA998E4491A9FC1D1A9 /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6AA55087E0B68D35506809E7659FB5E /* WKWebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F937D785450A77CC36219D307F66BD /* WKWebViewJavascriptBridge-dummy.m */; };
+		BA93899CFD925A0E9D12A2EE17BB6C0C /* WKWebViewJavascriptBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156169C6AFB0E39FE06C5C640C4AE7CC /* WKWebViewJavascriptBridge.swift */; };
+		C30BBD3051A5C90553513F2417C7BE5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D65135A492468A29C1C0EB4D691EE062 /* WKWebViewJavascriptBridgeJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC13D9864BEFBBE30873E7E391D01A26 /* WKWebViewJavascriptBridgeJS.swift */; };
+		EC7D026AD9C85542B4922B7B147CD9D6 /* WKWebViewJavascriptBridgeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3166DA2F4B4D7474AD065D78590C775 /* WKWebViewJavascriptBridgeBase.swift */; };
+		FFDE4809696586700BA7A58D451ADC85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F88F9126EC9196495D5ED42AF0A56DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78399BCA81EF5CD0A4097C6AFECE01D3;
+			remoteInfo = "Pods-DailyKorean";
+		};
+		94BCAD0A4B6511DDF914E5557A5F4A2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5260E7726855D1145EB9786F5F0E297;
+			remoteInfo = WKWebViewJavascriptBridge;
+		};
+		BE8DC95968258B6CCEB30998842C59F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78399BCA81EF5CD0A4097C6AFECE01D3;
+			remoteInfo = "Pods-DailyKorean";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0796ECA2D67BD8A77BF3EB2B9074235B /* WKWebViewJavascriptBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKWebViewJavascriptBridge.xcconfig; sourceTree = "<group>"; };
+		0B742D0F688B8B4FB478537639788B8E /* Pods-DailyKoreanUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DailyKoreanUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0CB6DF1A639D48D4157583D6A4124824 /* Pods-DailyKorean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyKorean.debug.xcconfig"; sourceTree = "<group>"; };
+		12055518C87B0F88D6F1797F308013D3 /* Pods-DailyKoreanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyKoreanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1484AAE270A461E69A3AC979AD70ED15 /* WKWebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKWebViewJavascriptBridge.framework; path = WKWebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1539F3D5F3209EFC32840B39A40DA121 /* Pods-DailyKoreanTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DailyKoreanTests-frameworks.sh"; sourceTree = "<group>"; };
+		156169C6AFB0E39FE06C5C640C4AE7CC /* WKWebViewJavascriptBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKWebViewJavascriptBridge.swift; path = WKWebViewJavascriptBridge/WKWebViewJavascriptBridge.swift; sourceTree = "<group>"; };
+		1B5222E3D5430B1B1E9A56A5835E66C7 /* Pods-DailyKoreanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyKoreanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20BFBA5255B222DCE464C98454090D14 /* Pods-DailyKoreanUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyKoreanUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		280D78D1FA088CB3627BD945003B95CC /* WKWebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKWebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
+		2C853B2EE9F807CFF2E3F8AEB915777D /* Pods_DailyKorean.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DailyKorean.framework; path = "Pods-DailyKorean.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB79CB658A2CA2BCC6043EA40ACA3E0 /* Pods-DailyKoreanTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DailyKoreanTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		352CF362610128C31A0AE93D7126E35C /* Pods-DailyKorean-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DailyKorean-dummy.m"; sourceTree = "<group>"; };
+		45416821839B6C1EC8983F7626189216 /* Pods-DailyKoreanUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DailyKoreanUITests-resources.sh"; sourceTree = "<group>"; };
+		4941465EE45F6748292379DC22FBF36E /* Pods-DailyKoreanTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DailyKoreanTests-resources.sh"; sourceTree = "<group>"; };
+		49DEE73691D42CA3C4C8F13D8689EBBF /* Pods-DailyKorean-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DailyKorean-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		641FF0D379D1AA58C126CFCA27274F09 /* Pods-DailyKorean-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyKorean-acknowledgements.plist"; sourceTree = "<group>"; };
+		674049F96B3C1F6CBD4515C329EEA46E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6775EBFC8F3369EA2F2B8C324E6A8789 /* Pods-DailyKoreanUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DailyKoreanUITests-umbrella.h"; sourceTree = "<group>"; };
+		6D2F5AA627DDB141BF11C8A72E736D14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72EDEBA6EA9AA2385F193AB27B7BE84E /* WKWebViewJavascriptBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKWebViewJavascriptBridge.modulemap; sourceTree = "<group>"; };
+		7806BED32098B481C469DA8B2100501A /* Pods_DailyKoreanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DailyKoreanUITests.framework; path = "Pods-DailyKoreanUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6F1C7D7884CB1E46A72D17580B02C2 /* Pods-DailyKoreanTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DailyKoreanTests-dummy.m"; sourceTree = "<group>"; };
+		862E882E441DB132F48E64793B42DACC /* Pods_DailyKoreanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DailyKoreanTests.framework; path = "Pods-DailyKoreanTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A907F0BA945D3A9E0B67EC4B910C9B8 /* WKWebViewJavascriptBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKWebViewJavascriptBridge-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940CB936520559702AA058C128E7FD28 /* Pods-DailyKorean.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DailyKorean.modulemap"; sourceTree = "<group>"; };
+		9896C408883277A4BA414998EC7088B5 /* Pods-DailyKorean-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DailyKorean-frameworks.sh"; sourceTree = "<group>"; };
+		989DBE11BE78EEA998E4491A9FC1D1A9 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = WKWebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		AA1F2AAEE2310AA412CAC8CD271714D7 /* Pods-DailyKoreanTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DailyKoreanTests.modulemap"; sourceTree = "<group>"; };
+		AAF45706BF1F0F4955A41369CD92D33C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23F09CE2200816066B46C8D2CF9B537 /* Pods-DailyKorean-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DailyKorean-resources.sh"; sourceTree = "<group>"; };
+		B6EBE9F9205681BEB187770B89BD717C /* Pods-DailyKorean-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DailyKorean-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BAE9B6D09BBFADFA685FB9A374C71CA6 /* Pods-DailyKoreanTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DailyKoreanTests-umbrella.h"; sourceTree = "<group>"; };
+		BD41827CEE520F64D9E6F15AF7A2602B /* Pods-DailyKoreanTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyKoreanTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C19FCAE3E9207F4C0AAC03B9AF7E51C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C445D6BA4636AC05ADAADE556321F291 /* Pods-DailyKoreanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyKoreanTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC13D9864BEFBBE30873E7E391D01A26 /* WKWebViewJavascriptBridgeJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKWebViewJavascriptBridgeJS.swift; path = WKWebViewJavascriptBridge/WKWebViewJavascriptBridgeJS.swift; sourceTree = "<group>"; };
+		D44B31EF02A9029EF3C0D01F919D521B /* Pods-DailyKoreanUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DailyKoreanUITests-frameworks.sh"; sourceTree = "<group>"; };
+		DAC22489A9452F9971D4CF97F1026B80 /* Pods-DailyKoreanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyKoreanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB6F0EC35B1D2F53F4917FDE93EC664E /* Pods-DailyKoreanUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DailyKoreanUITests.modulemap"; sourceTree = "<group>"; };
+		E3166DA2F4B4D7474AD065D78590C775 /* WKWebViewJavascriptBridgeBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKWebViewJavascriptBridgeBase.swift; path = WKWebViewJavascriptBridge/WKWebViewJavascriptBridgeBase.swift; sourceTree = "<group>"; };
+		F4F937D785450A77CC36219D307F66BD /* WKWebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKWebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
+		F57FB7D2EB6998EB69D08816B12070C4 /* Pods-DailyKorean.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyKorean.release.xcconfig"; sourceTree = "<group>"; };
+		F7E6D08D58EC421E0D031BC76F66B80B /* Pods-DailyKoreanUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DailyKoreanUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B69F82D1AB1A7BF21CECCAEA6DE44E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30BBD3051A5C90553513F2417C7BE5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6C7D6E03AD9ABDA1B8F0F6DC7A9727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDE4809696586700BA7A58D451ADC85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E703492C2B29E354BF475AB19B732FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E47D71F47D3BB20B193A5F77693D8A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F369C5BF8C823412A0C4D0DBE45B9612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6969599BD2979AAECC299179CE06D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		537829D4D0A9D1307F8AAB85CBAFB867 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0FAE23DB491D8271ED50F794A1D36D2 /* WKWebViewJavascriptBridge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62CE3A50FB6C27C25235914FB5B6734B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C19FCAE3E9207F4C0AAC03B9AF7E51C2 /* Info.plist */,
+				72EDEBA6EA9AA2385F193AB27B7BE84E /* WKWebViewJavascriptBridge.modulemap */,
+				0796ECA2D67BD8A77BF3EB2B9074235B /* WKWebViewJavascriptBridge.xcconfig */,
+				F4F937D785450A77CC36219D307F66BD /* WKWebViewJavascriptBridge-dummy.m */,
+				280D78D1FA088CB3627BD945003B95CC /* WKWebViewJavascriptBridge-prefix.pch */,
+				8A907F0BA945D3A9E0B67EC4B910C9B8 /* WKWebViewJavascriptBridge-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WKWebViewJavascriptBridge";
+			sourceTree = "<group>";
+		};
+		6610A03587706FB613FC471255D872A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C853B2EE9F807CFF2E3F8AEB915777D /* Pods_DailyKorean.framework */,
+				862E882E441DB132F48E64793B42DACC /* Pods_DailyKoreanTests.framework */,
+				7806BED32098B481C469DA8B2100501A /* Pods_DailyKoreanUITests.framework */,
+				1484AAE270A461E69A3AC979AD70ED15 /* WKWebViewJavascriptBridge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				537829D4D0A9D1307F8AAB85CBAFB867 /* Pods */,
+				6610A03587706FB613FC471255D872A0 /* Products */,
+				BA93F0B57D24712FBC32FE63AF45578E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC2A2AC2114305724E3A7BF49D4465A /* Pods-DailyKoreanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				674049F96B3C1F6CBD4515C329EEA46E /* Info.plist */,
+				DB6F0EC35B1D2F53F4917FDE93EC664E /* Pods-DailyKoreanUITests.modulemap */,
+				0B742D0F688B8B4FB478537639788B8E /* Pods-DailyKoreanUITests-acknowledgements.markdown */,
+				20BFBA5255B222DCE464C98454090D14 /* Pods-DailyKoreanUITests-acknowledgements.plist */,
+				F7E6D08D58EC421E0D031BC76F66B80B /* Pods-DailyKoreanUITests-dummy.m */,
+				D44B31EF02A9029EF3C0D01F919D521B /* Pods-DailyKoreanUITests-frameworks.sh */,
+				45416821839B6C1EC8983F7626189216 /* Pods-DailyKoreanUITests-resources.sh */,
+				6775EBFC8F3369EA2F2B8C324E6A8789 /* Pods-DailyKoreanUITests-umbrella.h */,
+				1B5222E3D5430B1B1E9A56A5835E66C7 /* Pods-DailyKoreanUITests.debug.xcconfig */,
+				DAC22489A9452F9971D4CF97F1026B80 /* Pods-DailyKoreanUITests.release.xcconfig */,
+			);
+			name = "Pods-DailyKoreanUITests";
+			path = "Target Support Files/Pods-DailyKoreanUITests";
+			sourceTree = "<group>";
+		};
+		99099D53A53F6770E09C8DC42A6A17A5 /* Pods-DailyKorean */ = {
+			isa = PBXGroup;
+			children = (
+				AAF45706BF1F0F4955A41369CD92D33C /* Info.plist */,
+				940CB936520559702AA058C128E7FD28 /* Pods-DailyKorean.modulemap */,
+				B6EBE9F9205681BEB187770B89BD717C /* Pods-DailyKorean-acknowledgements.markdown */,
+				641FF0D379D1AA58C126CFCA27274F09 /* Pods-DailyKorean-acknowledgements.plist */,
+				352CF362610128C31A0AE93D7126E35C /* Pods-DailyKorean-dummy.m */,
+				9896C408883277A4BA414998EC7088B5 /* Pods-DailyKorean-frameworks.sh */,
+				B23F09CE2200816066B46C8D2CF9B537 /* Pods-DailyKorean-resources.sh */,
+				49DEE73691D42CA3C4C8F13D8689EBBF /* Pods-DailyKorean-umbrella.h */,
+				0CB6DF1A639D48D4157583D6A4124824 /* Pods-DailyKorean.debug.xcconfig */,
+				F57FB7D2EB6998EB69D08816B12070C4 /* Pods-DailyKorean.release.xcconfig */,
+			);
+			name = "Pods-DailyKorean";
+			path = "Target Support Files/Pods-DailyKorean";
+			sourceTree = "<group>";
+		};
+		A0FAE23DB491D8271ED50F794A1D36D2 /* WKWebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				989DBE11BE78EEA998E4491A9FC1D1A9 /* WKWebViewJavascriptBridge.h */,
+				156169C6AFB0E39FE06C5C640C4AE7CC /* WKWebViewJavascriptBridge.swift */,
+				E3166DA2F4B4D7474AD065D78590C775 /* WKWebViewJavascriptBridgeBase.swift */,
+				CC13D9864BEFBBE30873E7E391D01A26 /* WKWebViewJavascriptBridgeJS.swift */,
+				62CE3A50FB6C27C25235914FB5B6734B /* Support Files */,
+			);
+			name = WKWebViewJavascriptBridge;
+			path = WKWebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		BA93F0B57D24712FBC32FE63AF45578E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99099D53A53F6770E09C8DC42A6A17A5 /* Pods-DailyKorean */,
+				DA0C47FEC2A1C028539B75FD34D6C83B /* Pods-DailyKoreanTests */,
+				8EC2A2AC2114305724E3A7BF49D4465A /* Pods-DailyKoreanUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA0C47FEC2A1C028539B75FD34D6C83B /* Pods-DailyKoreanTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F5AA627DDB141BF11C8A72E736D14 /* Info.plist */,
+				AA1F2AAEE2310AA412CAC8CD271714D7 /* Pods-DailyKoreanTests.modulemap */,
+				2DB79CB658A2CA2BCC6043EA40ACA3E0 /* Pods-DailyKoreanTests-acknowledgements.markdown */,
+				BD41827CEE520F64D9E6F15AF7A2602B /* Pods-DailyKoreanTests-acknowledgements.plist */,
+				7C6F1C7D7884CB1E46A72D17580B02C2 /* Pods-DailyKoreanTests-dummy.m */,
+				1539F3D5F3209EFC32840B39A40DA121 /* Pods-DailyKoreanTests-frameworks.sh */,
+				4941465EE45F6748292379DC22FBF36E /* Pods-DailyKoreanTests-resources.sh */,
+				BAE9B6D09BBFADFA685FB9A374C71CA6 /* Pods-DailyKoreanTests-umbrella.h */,
+				12055518C87B0F88D6F1797F308013D3 /* Pods-DailyKoreanTests.debug.xcconfig */,
+				C445D6BA4636AC05ADAADE556321F291 /* Pods-DailyKoreanTests.release.xcconfig */,
+			);
+			name = "Pods-DailyKoreanTests";
+			path = "Target Support Files/Pods-DailyKoreanTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BDDFCDFCB1CF2B6F4B5AB3666B0C2F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73616376190FDE1A6048311E6E0632DF /* Pods-DailyKoreanTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B24093EF98FA6ECEB505EDBF723B30B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08762A3A3BFB6FF545C6E1BDE96F5A1 /* Pods-DailyKorean-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7680DAC9E8F2C53621D49A58038A503A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BEC4C8CF9E920DC50E2C7EB2571546 /* Pods-DailyKoreanUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8A85DF306E1F3010E66C79F7FE7A6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620F4B9F07BBB9B0AB14407066C85BF4 /* WKWebViewJavascriptBridge-umbrella.h in Headers */,
+				AB6AB4CBD6BCE3C0C11CD38E610886A4 /* WKWebViewJavascriptBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56208CB818F0BBA2F88C7F7A9EF3FE5A /* Pods-DailyKoreanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3893ED70F7673352621CD250A39AA3 /* Build configuration list for PBXNativeTarget "Pods-DailyKoreanTests" */;
+			buildPhases = (
+				3E146FC1BB515B9DAB71F6563035D457 /* Sources */,
+				E703492C2B29E354BF475AB19B732FBE /* Frameworks */,
+				0BDDFCDFCB1CF2B6F4B5AB3666B0C2F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CCC4262E3582782F73E5C332EEB17D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-DailyKoreanTests";
+			productName = "Pods-DailyKoreanTests";
+			productReference = 862E882E441DB132F48E64793B42DACC /* Pods_DailyKoreanTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78399BCA81EF5CD0A4097C6AFECE01D3 /* Pods-DailyKorean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8517B3EFF15C2CB63F90474A96338ED /* Build configuration list for PBXNativeTarget "Pods-DailyKorean" */;
+			buildPhases = (
+				B3343B5A53205FEE63EB23B1A6CC5234 /* Sources */,
+				6B69F82D1AB1A7BF21CECCAEA6DE44E4 /* Frameworks */,
+				5B24093EF98FA6ECEB505EDBF723B30B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E0D63424A1436981D2D026ACBAA7882 /* PBXTargetDependency */,
+			);
+			name = "Pods-DailyKorean";
+			productName = "Pods-DailyKorean";
+			productReference = 2C853B2EE9F807CFF2E3F8AEB915777D /* Pods_DailyKorean.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5260E7726855D1145EB9786F5F0E297 /* WKWebViewJavascriptBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B269BFA455AE9B5DFCDF514FCBE7B7C /* Build configuration list for PBXNativeTarget "WKWebViewJavascriptBridge" */;
+			buildPhases = (
+				92A448FCB4D3851246B6E7F1128508B2 /* Sources */,
+				BE6C7D6E03AD9ABDA1B8F0F6DC7A9727 /* Frameworks */,
+				FD8A85DF306E1F3010E66C79F7FE7A6A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKWebViewJavascriptBridge;
+			productName = WKWebViewJavascriptBridge;
+			productReference = 1484AAE270A461E69A3AC979AD70ED15 /* WKWebViewJavascriptBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E35E4AE3A6BE0C970B18BE2B7DF6EFBA /* Pods-DailyKoreanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA064490EA164ED5D9917708D5D04522 /* Build configuration list for PBXNativeTarget "Pods-DailyKoreanUITests" */;
+			buildPhases = (
+				B2D1373B604AAFFAFA7A9AF445572CDF /* Sources */,
+				F369C5BF8C823412A0C4D0DBE45B9612 /* Frameworks */,
+				7680DAC9E8F2C53621D49A58038A503A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2BC457C7E4C95C88CABB49A1AE02961 /* PBXTargetDependency */,
+			);
+			name = "Pods-DailyKoreanUITests";
+			productName = "Pods-DailyKoreanUITests";
+			productReference = 7806BED32098B481C469DA8B2100501A /* Pods_DailyKoreanUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6610A03587706FB613FC471255D872A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78399BCA81EF5CD0A4097C6AFECE01D3 /* Pods-DailyKorean */,
+				56208CB818F0BBA2F88C7F7A9EF3FE5A /* Pods-DailyKoreanTests */,
+				E35E4AE3A6BE0C970B18BE2B7DF6EFBA /* Pods-DailyKoreanUITests */,
+				C5260E7726855D1145EB9786F5F0E297 /* WKWebViewJavascriptBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E146FC1BB515B9DAB71F6563035D457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DB2A04BB66D1F1B6E51423428772B2 /* Pods-DailyKoreanTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A448FCB4D3851246B6E7F1128508B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AA55087E0B68D35506809E7659FB5E /* WKWebViewJavascriptBridge-dummy.m in Sources */,
+				BA93899CFD925A0E9D12A2EE17BB6C0C /* WKWebViewJavascriptBridge.swift in Sources */,
+				EC7D026AD9C85542B4922B7B147CD9D6 /* WKWebViewJavascriptBridgeBase.swift in Sources */,
+				D65135A492468A29C1C0EB4D691EE062 /* WKWebViewJavascriptBridgeJS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D1373B604AAFFAFA7A9AF445572CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6147EBAAE8A37D76CE56E0B3A2201A4 /* Pods-DailyKoreanUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3343B5A53205FEE63EB23B1A6CC5234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08096BB982735551911A576B70341DEC /* Pods-DailyKorean-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E0D63424A1436981D2D026ACBAA7882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WKWebViewJavascriptBridge;
+			target = C5260E7726855D1145EB9786F5F0E297 /* WKWebViewJavascriptBridge */;
+			targetProxy = 94BCAD0A4B6511DDF914E5557A5F4A2A /* PBXContainerItemProxy */;
+		};
+		6CCC4262E3582782F73E5C332EEB17D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DailyKorean";
+			target = 78399BCA81EF5CD0A4097C6AFECE01D3 /* Pods-DailyKorean */;
+			targetProxy = BE8DC95968258B6CCEB30998842C59F5 /* PBXContainerItemProxy */;
+		};
+		E2BC457C7E4C95C88CABB49A1AE02961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DailyKorean";
+			target = 78399BCA81EF5CD0A4097C6AFECE01D3 /* Pods-DailyKorean */;
+			targetProxy = 6F88F9126EC9196495D5ED42AF0A56DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B3E5915A1DB575C7532FCE77D9F1D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57FB7D2EB6998EB69D08816B12070C4 /* Pods-DailyKorean.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyKorean/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyKorean/Pods-DailyKorean.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D7636CFCD3E6A34CED8ADC877E74E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12055518C87B0F88D6F1797F308013D3 /* Pods-DailyKoreanTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyKoreanTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyKoreanTests/Pods-DailyKoreanTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		61EE6329DEE8E487E65CA9A8522A4BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C445D6BA4636AC05ADAADE556321F291 /* Pods-DailyKoreanTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyKoreanTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyKoreanTests/Pods-DailyKoreanTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		621282F89717D7882B97D05F8C903C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC22489A9452F9971D4CF97F1026B80 /* Pods-DailyKoreanUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyKoreanUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyKoreanUITests/Pods-DailyKoreanUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7047F57405F3B5B53FB8DA19EC56C821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0796ECA2D67BD8A77BF3EB2B9074235B /* WKWebViewJavascriptBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKWebViewJavascriptBridge/WKWebViewJavascriptBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKWebViewJavascriptBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WKWebViewJavascriptBridge/WKWebViewJavascriptBridge.modulemap";
+				PRODUCT_MODULE_NAME = WKWebViewJavascriptBridge;
+				PRODUCT_NAME = WKWebViewJavascriptBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A607A8CFDA815D6C464D79F015C0CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB6DF1A639D48D4157583D6A4124824 /* Pods-DailyKorean.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyKorean/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyKorean/Pods-DailyKorean.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80AADBFD70A90A2AD7D7DE1F9E57825F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0796ECA2D67BD8A77BF3EB2B9074235B /* WKWebViewJavascriptBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKWebViewJavascriptBridge/WKWebViewJavascriptBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKWebViewJavascriptBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WKWebViewJavascriptBridge/WKWebViewJavascriptBridge.modulemap";
+				PRODUCT_MODULE_NAME = WKWebViewJavascriptBridge;
+				PRODUCT_NAME = WKWebViewJavascriptBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		969F779C3228BC7323F484A6E4CDB59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5222E3D5430B1B1E9A56A5835E66C7 /* Pods-DailyKoreanUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyKoreanUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyKoreanUITests/Pods-DailyKoreanUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B269BFA455AE9B5DFCDF514FCBE7B7C /* Build configuration list for PBXNativeTarget "WKWebViewJavascriptBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7047F57405F3B5B53FB8DA19EC56C821 /* Debug */,
+				80AADBFD70A90A2AD7D7DE1F9E57825F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3893ED70F7673352621CD250A39AA3 /* Build configuration list for PBXNativeTarget "Pods-DailyKoreanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7636CFCD3E6A34CED8ADC877E74E6E /* Debug */,
+				61EE6329DEE8E487E65CA9A8522A4BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8517B3EFF15C2CB63F90474A96338ED /* Build configuration list for PBXNativeTarget "Pods-DailyKorean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A607A8CFDA815D6C464D79F015C0CB6 /* Debug */,
+				1B3E5915A1DB575C7532FCE77D9F1D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA064490EA164ED5D9917708D5D04522 /* Build configuration list for PBXNativeTarget "Pods-DailyKoreanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969F779C3228BC7323F484A6E4CDB59E /* Debug */,
+				621282F89717D7882B97D05F8C903C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

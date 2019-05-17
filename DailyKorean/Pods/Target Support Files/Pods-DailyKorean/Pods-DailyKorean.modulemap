@@ -1,0 +1,6 @@
+framework module Pods_DailyKorean {
+  umbrella header "Pods-DailyKorean-umbrella.h"
+
+  export *
+  module * { export * }
+}
