@@ -13,15 +13,21 @@ class DKWebViewController: UIViewController {
 
     let webView = WKWebView(frame: CGRect(), configuration: WKWebViewConfiguration())
     
+    let oldWebView = UIWebView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
         // setup webview
-        webView.frame = view.bounds
-        webView.navigationDelegate = self
-        view.addSubview(webView)
+//        webView.frame = view.bounds
+//        webView.navigationDelegate = self
+//        view.addSubview(webView)
+        
+        oldWebView.frame = view.bounds
+        oldWebView.delegate = self
+        view.addSubview(oldWebView)
         
         loadAlphabet()
     }
@@ -41,7 +47,18 @@ class DKWebViewController: UIViewController {
             guard let htmlPath = (customBundle?.path(forResource: "index", ofType: "html", inDirectory: nil)) else {
                 throw LoadAlphabetError.nilHtmlPath
             }
-            webView.load(URLRequest(url: URL(fileURLWithPath: htmlPath)))
+//            webView.load(URLRequest(url: URL(fileURLWithPath: htmlPath)))
+            
+//            let htmlStr = try String(contentsOfFile: htmlPath, encoding: .utf8)
+//            let baseURL = URL(fileURLWithPath: htmlPath)
+//            webView.loadHTMLString(htmlStr, baseURL: baseURL)
+            
+//            webView.load(URLRequest(url: URL(string: "https://www.baidu.com")!))
+            
+//            let readAccessUrl = URL(fileURLWithPath: customBundlePath)
+//            webView.loadFileURL(URL(fileURLWithPath: htmlPath), allowingReadAccessTo: readAccessUrl)
+            
+            oldWebView.loadRequest(URLRequest(url: URL(fileURLWithPath: htmlPath)))
         } catch LoadAlphabetError.nilBundlePath {
             print("Cannot find alphabet.bundle !!!")
         } catch LoadAlphabetError.nilHtmlPath {
@@ -70,6 +87,12 @@ extension DKWebViewController: WKNavigationDelegate {
     }
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+//        print("webViewDidFinishLoad")
+    }
+}
+
+extension DKWebViewController: UIWebViewDelegate {
+    func webViewDidFinishLoad(_ webView: UIWebView) {
 //        print("webViewDidFinishLoad")
     }
 }
